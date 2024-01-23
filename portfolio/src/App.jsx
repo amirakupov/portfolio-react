@@ -4,6 +4,8 @@ import Header from "./components/Header";
 const App = () => {
     const comp = useRef(null);
     const header = useRef(null);
+    const welcome = useRef(null);
+
 
     useLayoutEffect(() => {
         let ctx = gsap.context(() => {
@@ -30,9 +32,10 @@ const App = () => {
                 })
                 .from("#welcome", {
                     opacity: 0,
-                    duration: 0.5,
+                    duration: 1,
                     onComplete: () => {
                         gsap.to(header.current, { opacity: 1, duration: 0.5 });
+                        gsap.to(welcome.current, { opacity: 0, duration: 0.5 });
                     },
                 });
         }, comp);
@@ -58,7 +61,7 @@ const App = () => {
                 </h1>
             </div>
             <div className="h-screen flex bg-gray-950 justify-center place-items-center">
-                <h1 className="text-9xl font-bold text-gray-100" id="welcome">
+                <h1 ref={welcome} className="text-9xl font-bold text-gray-100" id="welcome">
                     здорова
                 </h1>
             </div>
