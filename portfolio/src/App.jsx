@@ -1,11 +1,13 @@
-import React, { useRef, useLayoutEffect } from "react";
-import { gsap } from "gsap";
+import React, {useRef, useLayoutEffect, useEffect} from "react";
 import Header from "./components/Header";
+import About from "./components/About.jsx";
+import gsap from 'gsap';
+import Technologies from "./components/Technologies.jsx";
+
 const App = () => {
     const comp = useRef(null);
     const header = useRef(null);
     const welcome = useRef(null);
-
 
     useLayoutEffect(() => {
         let ctx = gsap.context(() => {
@@ -35,7 +37,6 @@ const App = () => {
                     duration: 1,
                     onComplete: () => {
                         gsap.to(header.current, { opacity: 1, duration: 0.5 });
-                        gsap.to(welcome.current, { opacity: 0, duration: 0.5 });
                     },
                 });
         }, comp);
@@ -60,12 +61,27 @@ const App = () => {
                     Eater
                 </h1>
             </div>
-            <div className="h-screen flex bg-gray-950 justify-center place-items-center">
-                <h1 ref={welcome} className="text-9xl font-bold text-gray-100" id="welcome">
-                    здорова
-                </h1>
+            <div className="h-screen flex bg-gray-950 justify-center place-items-center flex-col text-center">
+                <div ref={welcome} className="mb-4">
+                    <h1 className="text-4xl font-bold text-gray-100" id="welcome">
+                        здорова, я такой то такой то
+                    </h1>
+                </div>
+                <div ref={welcome} className="mb-4">
+                    <h2 className="text-2xl font-bold text-gray-100" id="welcome">
+                        я делаю то то и то
+                    </h2>
+                </div>
+                <div ref={welcome}>
+                    <h3 className="text-2xl font-bold text-gray-100" id="welcome">
+                        и еще то то и то то
+                    </h3>
+                </div>
             </div>
+
             <Header headerRef={header} />
+            <About />
+            <Technologies />
         </div>
     );
 };
