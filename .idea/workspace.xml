@@ -4,15 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="73e59591-5fae-4149-ba2e-09c98d412039" name="Changes" comment="align header">
-      <change afterPath="$PROJECT_DIR$/portfolio/src/components/About.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/portfolio/src/components/Projects.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/portfolio/src/components/Technologies.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/portfolio/src/components/Work.jsx" afterDir="false" />
+    <list default="true" id="73e59591-5fae-4149-ba2e-09c98d412039" name="Changes" comment="projects &amp; contact">
+      <change afterPath="$PROJECT_DIR$/portfolio/public/gifs/streetrunner.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portfolio/src/components/Contact.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portfolio/src/components/Sidebar.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/portfolio/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/portfolio/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/portfolio/src/App.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio/src/App.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/portfolio/src/components/About.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio/src/components/About.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/portfolio/src/components/Header.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio/src/components/Header.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/portfolio/src/components/Projects.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio/src/components/Projects.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/portfolio/src/components/Technologies.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio/src/components/Technologies.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,21 +43,26 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "main",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.lookFeel",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/portfolio/public/gifs" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -64,6 +72,7 @@
       <option name="presentableId" value="Default" />
       <updated>1705938131977</updated>
       <workItem from="1705938133769" duration="5491000" />
+      <workItem from="1706105494731" duration="6633000" />
     </task>
     <task id="LOCAL-00001" summary="header">
       <created>1705957572030</created>
@@ -79,7 +88,14 @@
       <option name="project" value="LOCAL" />
       <updated>1706030173929</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="about &amp; technologies">
+      <created>1706054684612</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1706054684612</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -88,6 +104,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="header" />
     <MESSAGE value="align header" />
-    <option name="LAST_COMMIT_MESSAGE" value="align header" />
+    <MESSAGE value="about &amp; technologies" />
+    <MESSAGE value="projects &amp; contact" />
+    <option name="LAST_COMMIT_MESSAGE" value="projects &amp; contact" />
   </component>
 </project>

@@ -3,6 +3,9 @@ import Header from "./components/Header";
 import About from "./components/About.jsx";
 import gsap from 'gsap';
 import Technologies from "./components/Technologies.jsx";
+import Projects from "./components/Projects.jsx";
+import Contact from "./components/Contact.jsx";
+import Sidebar from "./components/Sidebar.jsx";
 
 const App = () => {
     const comp = useRef(null);
@@ -61,20 +64,20 @@ const App = () => {
                     Eater
                 </h1>
             </div>
-            <div className="h-screen flex bg-gray-950 justify-center place-items-center flex-col text-center">
+            <div className="h-screen flex bg-gray-950 justify-center place-items-center flex-col text-center" id='home'>
                 <div ref={welcome} className="mb-4">
                     <h1 className="text-4xl font-bold text-gray-100" id="welcome">
-                        здорова, я такой то такой то
+                        Greetings! My name is Amir
                     </h1>
                 </div>
                 <div ref={welcome} className="mb-4">
                     <h2 className="text-2xl font-bold text-gray-100" id="welcome">
-                        я делаю то то и то
+                        I specialize in backend and full-stack development.
                     </h2>
                 </div>
                 <div ref={welcome}>
                     <h3 className="text-2xl font-bold text-gray-100" id="welcome">
-                        и еще то то и то то
+                        Crafting robust solutions and delivering seamless user experiences is my forte.
                     </h3>
                 </div>
             </div>
@@ -82,6 +85,9 @@ const App = () => {
             <Header headerRef={header} />
             <About />
             <Technologies />
+            <Projects />
+            <Contact />
+            <Sidebar />
         </div>
     );
 };

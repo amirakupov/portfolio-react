@@ -4,7 +4,7 @@ import Work from "./Work.jsx";
 function About() {
 
     return (
-        <div className="container mx-auto max-w-screen-lg pt-10 pb-20">
+        <div className="container mx-auto max-w-screen-lg pt-10 pb-20" id="about">
                 <section className="mb-12 about-section">
                     <h1 className="text-4xl md:text-5xl xl:text-6xl font-bold text-dark-heading dark:text-light-heading leading-tight">
                         About

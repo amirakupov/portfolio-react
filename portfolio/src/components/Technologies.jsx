@@ -25,7 +25,7 @@ const skillImages = {
 };
 const Technologies = () => {
     return (
-        <div className="container mx-auto max-w-screen-lg pt-10 pb-20">
+        <div className="container mx-auto max-w-screen-lg pt-10 pb-20" id='technologies'>
             <section className="mb-12 about-section">
                 <h2 className="text-4xl md:text-5xl xl:text-6xl font-bold text-dark-heading dark:text-light-heading leading-tight">Technologies</h2>
             </section>
