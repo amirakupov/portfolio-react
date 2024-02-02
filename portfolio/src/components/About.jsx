@@ -10,7 +10,7 @@ function About() {
                         About
                     </h1>
                     <p className="text-lg py-8 lg:max-w-3xl text-content">
-                        I am a passionate individual with a strong background in web development...
+                        I'm Amir, a budding Full Stack Developer passionate about crafting meaningful and innovative digital experiences. As a recent entrant into the world of web development, I bring a fresh perspective and a strong desire to learn and grow.
                     </p>
                 </section>
                 <section className="mb-12 about-section">
@@ -18,18 +18,18 @@ function About() {
                         Work Experience
                     </h1>
                     <Work
-                        position="Frontend Developer"
-                        company="Tech Solutions Inc."
-                        location="Cityville, USA"
-                        type="Full-time"
-                        duration="Jan 2020 - Present"
+                        position="FullStack Developer"
+                        company="Streetrunner.at"
+                        location="Vienna, Austria"
+                        type="Part-time"
+                        duration="June 2023 - Present"
                     />
                     <Work
-                        position="UI/UX Designer"
-                        company="Design Studio XYZ"
-                        location="Creative City, USA"
-                        type="Contract"
-                        duration="May 2018 - Dec 2019"
+                        position="Backend Developer"
+                        company="Locaverse"
+                        location="Vienna, Austria"
+                        type="Part-time"
+                        duration="October 2023 - November 2023"
                     />
                 </section>
                 <section className="about-section">
@@ -37,11 +37,11 @@ function About() {
                         Education
                     </h1>
                     <Work
-                        position="Bachelor's in Computer Science"
-                        company="University of Technology"
-                        location="Tech City, USA"
+                        position="Bachelor's in Computer Science & Digital Communications"
+                        company="FH Campus Wien"
+                        location="Vienna, Austria"
                         type="Graduation"
-                        duration="2014 - 2018"
+                        duration="2022 - 2025"
                     />
                 </section>
         </div>

@@ -11,7 +11,7 @@ const Sidebar = () => {
                 <FontAwesomeIcon icon={faGoogle} className="h-6 w-6" />
             </a>
             <a
-                href="https://github.com/your-github-username"
+                href="https://github.com/amirakupov"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-blue-500 hover:text-blue-700 mb-4"
@@ -19,7 +19,7 @@ const Sidebar = () => {
                 <FontAwesomeIcon icon={faTelegram} className="h-6 w-6" />
             </a>
             <a
-                href="https://linkedin.com/in/your-linkedin-username"
+                href="https://www.linkedin.com/in/amir-iakupov-67a943272/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-blue-500 hover:text-blue-700"

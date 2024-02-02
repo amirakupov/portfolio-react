@@ -4,23 +4,25 @@ const projectsList = [
     {
         id: 1,
         name: 'Streetrunner.at',
-        description: 'проект разаработан для доставки напитков и снеков в вене. включает в себя чики брики пальчик выкень.' +
-            'technologies: django, js, css, html, postgres',
+        description: 'The project was developed for the delivery of drinks and snacks in Vienna. includes great functionality for administration and staff. ' +
+            'Technologies: Django, JS, CSS, HTML, PostgreSQL',
         gif: '/gifs/streetrunner.gif',
         link: 'https://streetrunner.at',
-        github: 'https://github.com',
+        // github: 'https://github.com',
     },
     {
         id: 2,
-        name: 'Project 2',
-        description: 'Description of Project 2',
-        github: 'https://github.com',
-        link: 'https://example.com/project2',
+        name: 'Accontable',
+        description: 'The project was designed to manage and control its facilities. The interface offers various graphs and charts to track your income and expenses. ' +
+            'Technologies: FastAPI, React.js, CSS, HTML, SQLAlchemy',
+        gif:'/gifs/Acoontable_vid.gif',
+        github: 'https://github.com/amirakupov/BudgetPlannerFE.git',
+        link: 'https://github.com/bjugoy/budgetPlannerBE.git',
     },
     {
         id: 3,
-        name: 'Project 3',
-        description: 'Description of Project 3',
+        name: 'Microservice',
+        description: 'Coming soon',
         github: 'https://github.com',
         link: 'https://example.com/project2',
     },

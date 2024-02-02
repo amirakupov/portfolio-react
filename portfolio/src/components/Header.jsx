@@ -21,7 +21,7 @@ const Header = ({ headerRef }) => {
                     <button onClick={() => scrollToSection('contact')}>Contact</button>
                 </div>
                 <div className="mr-4">
-                    <a href="https://github.com" target="_blank" rel="noopener noreferrer">
+                    <a href="https://github.com/amirakupov" target="_blank" rel="noopener noreferrer">
                         <FontAwesomeIcon icon={faGithub} className="w-6 h-6 text-white hover:text-gray-300" />
                     </a>
                 </div>

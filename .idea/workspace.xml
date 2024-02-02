@@ -5,17 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="73e59591-5fae-4149-ba2e-09c98d412039" name="Changes" comment="projects &amp; contact">
-      <change afterPath="$PROJECT_DIR$/portfolio/public/gifs/streetrunner.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/portfolio/src/components/Contact.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/portfolio/src/components/Sidebar.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/portfolio/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/portfolio/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/portfolio/src/App.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio/src/App.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/portfolio/src/components/About.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio/src/components/About.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/portfolio/src/components/Header.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio/src/components/Header.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/portfolio/src/components/Projects.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio/src/components/Projects.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/portfolio/src/components/Technologies.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio/src/components/Technologies.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,7 +65,9 @@
       <option name="presentableId" value="Default" />
       <updated>1705938131977</updated>
       <workItem from="1705938133769" duration="5491000" />
-      <workItem from="1706105494731" duration="6633000" />
+      <workItem from="1706105494731" duration="6695000" />
+      <workItem from="1706127049318" duration="215000" />
+      <workItem from="1706843924401" duration="885000" />
     </task>
     <task id="LOCAL-00001" summary="header">
       <created>1705957572030</created>
@@ -95,7 +90,14 @@
       <option name="project" value="LOCAL" />
       <updated>1706054684612</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="projects &amp; contact">
+      <created>1706115793283</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1706115793283</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

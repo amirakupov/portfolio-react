@@ -55,13 +55,13 @@ const App = () => {
                     font-spaceGrotesk z-10 w-full flex flex-col gap-10 tracking-tight"
             >
                 <h1 className="text-9xl" id="title-1">
-                    Professional
+                    Frontend
                 </h1>
                 <h1 className="text-9xl" id="title-2">
-                    Snus
+                    Backend
                 </h1>
                 <h1 className="text-9xl" id="title-3">
-                    Eater
+                    Fullstack
                 </h1>
             </div>
             <div className="h-screen flex bg-gray-950 justify-center place-items-center flex-col text-center" id='home'>
