@@ -18,11 +18,18 @@ function About() {
                         Work Experience
                     </h1>
                     <Work
-                        position="FullStack Developer"
+                        position="Software Developer"
+                        company="Erste Digital"
+                        location="Vienna, Austria"
+                        type="Part-time"
+                        duration="April 2024 - April 2025"
+                    />
+                    <Work
+                        position="Software Developer"
                         company="Streetrunner.at"
                         location="Vienna, Austria"
                         type="Part-time"
-                        duration="June 2023 - Present"
+                        duration="June 2023 - February 2024"
                     />
                     <Work
                         position="Backend Developer"
