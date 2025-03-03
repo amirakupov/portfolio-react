@@ -1,12 +1,14 @@
-import {faGoogle, faLinkedin, faTelegram} from '@fortawesome/free-brands-svg-icons';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faGoogle, faLinkedin, faTelegram } from "@fortawesome/free-brands-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 const Sidebar = () => {
     return (
-        <div className="fixed left-0 top-0 h-screen flex flex-col items-center justify-center p-4">
+        <div className="fixed flex md:flex-col items-center justify-center p-4 
+                        md:left-4 md:top-1/2 md:transform md:-translate-y-1/2
+                        bottom-0 w-full md:w-auto md:space-y-6 space-x-6 md:space-x-0 py-3 bg-transparent">
             <a
                 href="mailto:amirakupov@gmail.com"
-                className="text-blue-500 hover:text-blue-700 mb-4"
+                className="text-blue-500 hover:text-blue-700"
             >
                 <FontAwesomeIcon icon={faGoogle} className="h-6 w-6" />
             </a>
@@ -14,7 +16,7 @@ const Sidebar = () => {
                 href="https://github.com/amirakupov"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="text-blue-500 hover:text-blue-700 mb-4"
+                className="text-blue-500 hover:text-blue-700"
             >
                 <FontAwesomeIcon icon={faTelegram} className="h-6 w-6" />
             </a>
@@ -31,3 +33,4 @@ const Sidebar = () => {
 };
 
 export default Sidebar;
+
