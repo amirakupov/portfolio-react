@@ -14,7 +14,7 @@ const projectsList = [
         id: 2,
         name: 'Accontable',
         description:
-            'A financial tracking system for managing expenses and revenue with visual reports. ' +
+            'A financial tracking system for managing expenses and revenue with visual reports. Client-Server architecture. ' +
             'Technologies: FastAPI, React.js, CSS, HTML, SQLAlchemy.',
         gif: '/gifs/Acoontable_vid.gif',
         github: 'https://github.com/amirakupov/BudgetPlannerFE.git',
@@ -22,10 +22,9 @@ const projectsList = [
     },
     {
         id: 3,
-        name: 'Microservice',
+        name: 'Microservices',
         description: 'Coming soon...',
         github: 'https://github.com/KukeiAMG/VBartere',
-        link: 'https://example.com/project2',
     },
 ];
 

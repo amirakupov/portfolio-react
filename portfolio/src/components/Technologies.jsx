@@ -18,14 +18,14 @@ const skillImages = {
 const Technologies = () => {
     return (
         <div className="container mx-auto max-w-screen-lg px-6 md:px-10 pt-10 pb-20" id="technologies">
-            <section className="mb-12 text-center">
+            <section className="mb-12 text-center md:text-left">
                 <h2 className="text-3xl md:text-5xl xl:text-6xl font-bold text-dark-heading dark:text-light-heading leading-snug">
                     Technologies
                 </h2>
             </section>
 
             {/* Responsive Grid Layout */}
-            <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-6 place-items-center">
+            <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-4 gap-6 place-items-center">
                 {Object.keys(skillImages).map((skill) => (
                     <div key={skill} className="flex flex-col items-center">
                         <div
